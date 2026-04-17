@@ -1,21 +1,53 @@
 @charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 
 h1{
     text-align: center;
 }
 
 :root{
-    --cor1: rgb(254, 200, 235);
-    --cor2: purple;
+    --cor1: #FAB4BF;
+    --cor2: #FFD2C7;
+    --cor3: #FFF1DD;
+    --cor4: #FFE2E8;
+    --cor5: #F8FFB5;
+    --cor6: black;
+
 }
-*{
+body{
     background-color: var(--cor1);
-    font-family: Arial, Helvetica, sans-serif ;
+    font-family: "Lato";
     text-align: justify;
+    height: 100vh;
 }
-ul{
-    padding: 10px;
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+    padding: .8rem;
+    background-color: var(--dark6);
+    min-height: 50px;
 }
-p{
-    padding: 20px;
+
+.box-img{
+    height: 100%;
+}
+
+.img-logo{
+    max-width: 60px;
+    height: 100%;
+}
+nav{
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.nav-links{
+    text-decoration: none;
+    color: var(--cor6);
 }
