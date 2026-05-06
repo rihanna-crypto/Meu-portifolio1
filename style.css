@@ -18,6 +18,7 @@ h1{
     --cor5: #F8FFB5;
     --cor6: black;
     --cor7: white;
+    --cor8: #013440; 
 }
 
 body{
@@ -70,7 +71,10 @@ button, .link-action{
     font-size: .9rem;
     border-radius: 6px;
     cursor: pointer;
-    transition: .4s; 
+    transition: .4s;
+    text-decoration: none;
+    text-align: center;
+    width: 200px; 
 }
 
 .btn-actions{
@@ -78,6 +82,11 @@ button, .link-action{
     border: 1px solid var(--cor6);
     color: var(--cor6);
     width: 100px;
+}
+
+.btn-actions:hover{
+    background-color: var(--cor3);
+    border: 1px solid var(--cor3);
 }
 
 main{
@@ -168,3 +177,22 @@ strong{
     align-items: center;
     flex-wrap: wrap;
 }
+
+.third-section> div img{
+    height: 500px;
+    border-radius: 10px;
+}
+
+.third-section> div p{
+    max-width: 600px;
+    color: var(--cor6);
+    text-align: center;
+}
+
+.third-section> h2{
+    text-align: center;
+}
+
+.title{
+    color: black;
+} 
