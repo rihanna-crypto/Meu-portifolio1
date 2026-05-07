@@ -135,7 +135,7 @@ strong{
     width: 100%;
 }
 
-.second-section{
+.second-section, .fourth-section{
     background-color: var(--cor4);
     display: flex;
     flex-direction: column;
@@ -195,4 +195,23 @@ strong{
 
 .title{
     color: black;
+    text-align: center;
 } 
+
+#loading{
+    color:#013440;
+}
+
+footer{
+    display: flex;
+    padding: 4rem;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+footer> div{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
